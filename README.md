@@ -6,11 +6,9 @@ AI platform engineer with 20 years building large-scale distributed systems. Cur
 
 | Project | Stack | What it does |
 |---------|-------|-------------|
-| [**geochemical-dating**](https://github.com/damsolanke/geochemical-dating) | XGBoost, LightGBM, scikit-learn | **2nd of 31 on Kaggle.** Two-branch ensemble for 3-class geological age classification, private Macro-F1 0.96988 — finished 0.00104 behind first and generalised upward on the private split |
-| [**aarogya-atlas**](https://github.com/damsolanke/aarogya-atlas) | TypeScript, FHIR, on-device LLM | On-device healthcare facility intelligence agent for India. Runs offline, FHIR-native, every answer traceable to a source record. [Live demo](https://aarogya-atlas.vercel.app) |
-| [**gcp-financial-data-platform**](https://github.com/damsolanke/gcp-financial-data-platform) | Go, Airflow, dbt, BigQuery, Terraform | Production-grade financial data infrastructure — event ingestion, batch transforms, governed access, multi-region IaC |
-| [**NFL-bdb**](https://github.com/damsolanke/NFL-bdb) | PyTorch, Graph Neural Networks | Spatio-temporal GNN for NFL player trajectory prediction — Graph Attention plus Transformer layers over player interaction graphs |
-| [**Cross-Domain Predictive Analytics**](https://github.com/damsolanke/Cross_Domain_Predictive_Analytics_Dashboard) | Python, Flask, scikit-learn, Socket.IO | Real-time dashboard correlating weather, economic, news, and transport signals with ML predictions |
+| [**aarogya-atlas**](https://github.com/damsolanke/aarogya-atlas) | TypeScript, Python, FHIR, LLM tool calling | Tool-calling loop over 12 typed tools with a critic pass over FHIR-aligned data; answers cite source facility ids. Cloud inference in the hosted demo; an optional on-device mode runs photo triage and embeddings on local models. [Live demo](https://aarogya-atlas.vercel.app) |
+| [**gcp-financial-data-platform**](https://github.com/damsolanke/gcp-financial-data-platform) | Go, Airflow, dbt, BigQuery, Terraform | Reference architecture for financial data infrastructure: event ingestion, batch transforms, governed access and cross-region backups, with the infrastructure as Terraform modules |
+| [**geochemical-dating**](https://github.com/damsolanke/geochemical-dating) | XGBoost, LightGBM, scikit-learn | **2nd of 31 on Kaggle.** Two-branch ensemble for 3-class geological age classification, private Macro-F1 0.96988, 0.00104 behind first, and generalised upward on the private split |
 
 **Competitions**
 
@@ -18,6 +16,6 @@ ARC Prize 2026 (Paper Track) · AI Agent Security: Multi-Step Tool Attacks (Open
 
 **Stack**
 
-Python, Go, SQL, TypeScript · agent SDKs, MCP, tool calling, evals and tracing · PyTorch, XGBoost, LightGBM · AWS and GCP · Kubernetes, Terraform, Airflow, dbt, BigQuery, Pub/Sub, Kafka, PostgreSQL
+Python, Go, SQL, TypeScript · agent SDKs, MCP, tool calling, evals and tracing · PyTorch, XGBoost, LightGBM · AWS and GCP · Kubernetes, Terraform, Airflow, dbt, BigQuery, Pub/Sub, PostgreSQL
 
 MSc Artificial Intelligence · Dallas-Fort Worth, TX
